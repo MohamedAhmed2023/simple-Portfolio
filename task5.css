@@ -1,0 +1,559 @@
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+}
+
+.main {
+    width: 80%;
+    height: 100%;
+    float: right;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.main-2 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #9e9e9e;
+}
+
+.container-2 {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.main-3 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #616161;
+}
+
+.continer-3 {
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+.contant-aside {
+    padding: 20px 25px;
+}
+
+
+.li-aside {
+    padding: 15px 25px;
+}
+
+.img-aside {
+    width: 120px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.p-aside {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.span-aside {
+    font-family: "Raleway", sans-serif;
+    color: #757575;
+    padding: 20px 0;
+
+}
+
+aside ul {
+    padding: 20px 0;
+}
+
+aside ul li {
+    display: block;
+    list-style: none;
+    padding: 20px 6px;
+}
+
+aside ul li:hover {
+    background-color: #ccc;
+}
+
+aside ul li a {
+    font-family: "Raleway", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 12px;
+
+}
+
+
+.icon-asdie {
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.icon-asdie i {
+    width: 25px;
+    font-size: 20px;
+    float: left;
+
+
+}
+
+.icon-asdie i:hover {
+    color: #ccc;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.span-header {
+    margin-right: 16px;
+}
+
+.button-1 {
+    margin-right: 3px;
+    padding: 12px 20px;
+    color: #fff;
+    border: none;
+    background-color: #000;
+}
+
+.button-1:hover {
+    background-color: #CCC;
+    outline: none;
+}
+
+.button-2 {
+    background-color: white;
+    padding: 10px 15px;
+    margin-right: 3px;
+    border: none;
+    font-size: 15px;
+}
+
+.button-2 i {
+    padding: 0 10px;
+}
+
+.button-2:hover {
+    background-color: #ccc;
+}
+
+
+hr {
+    border: none;
+    margin: 20px 0;
+    height: 5px;
+    background-color: #ccc;
+}
+
+
+.card {
+    width: 100%;
+}
+
+.parentcardchild {
+    margin: -5px;
+}
+
+.cardchild {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cardchild {
+    width: 33.3333%;
+    float: left;
+    margin: 10px 0;
+    border-radius: 10px;
+
+}
+
+.imgcard {
+    width: 100%;
+}
+
+.imgcard:hover {
+    opacity: 0.6;
+
+}
+
+.hcrad {
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.paragraphcard {
+    padding: 10px 0;
+}
+
+.textcard {
+    padding: 10px;
+    margin-top: -3px;
+    background-color: white;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.links {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.links .a1 {
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: #000;
+}
+
+.links .a1:hover {
+    background-color: #ccc;
+}
+
+.linksbefore {
+    padding: 10px 16px;
+}
+
+.linksbefore::before {
+    content: "<<";
+}
+
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+}
+
+.links a:hover {
+    background-color: #000;
+    color: white;
+}
+
+.linksafter {
+    padding: 10px 16px;
+}
+
+.linksafter::after {
+    content: ">>";
+}
+
+.image {
+    width: 100%;
+}
+
+.perantimg {
+    margin: -5px;
+}
+
+.imagechiled {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.img {
+    width: 100%;
+}
+
+
+.AboutMe {
+    margin: 40px 0;
+}
+
+.haboutme {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.paragraphaboutme {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.paragraphTechnicalSkills {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.Photography,
+.WebDesign,
+.Photoshop {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.perantPhotography,
+.perantWebDesign,
+.perantPhotoshop {
+    width: 100%;
+    background-color: #9e9e9e;
+}
+
+.paragraphPhotography,
+.paragraphWebDesign,
+.paragraphPhotoshop {
+    margin: 10px 0;
+}
+
+.chiledPhotography {
+    width: 95%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-color: #616161;
+}
+
+.chiledWebDesign {
+    width: 85%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-color: #616161;
+}
+
+.chiledPhotoshop {
+    width: 80%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-color: #616161;
+}
+
+.button-TechnicalSkills {
+    padding: 15px 35px;
+    background-color: #616161;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.button-TechnicalSkills:hover {
+    background-color: #ccc;
+}
+
+.box {
+    width: 100%;
+    margin: 30px 0;
+
+}
+
+
+.box1 {
+    width: 33.333333%;
+    float: left;
+    padding-right: 5px;
+    filter: opacity(0.6);
+}
+
+.box1:hover {
+    filter: opacity(1);
+}
+
+
+
+.libox {
+    font-family: "Raleway", sans-serif;
+    padding: 16px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 19px;
+    list-style: none;
+}
+
+.liboxBasic,
+.liboxPremium {
+    font-family: "Raleway", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    list-style: none;
+    background-color: #000;
+    color: white;
+}
+
+.liboxPro {
+    font-family: "Raleway", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    list-style: none;
+    color: #fff;
+    background-color: #009688;
+}
+
+.libuttonbox {
+    padding: 25px 16px;
+    border: 1px solid #ddd;
+    list-style: none;
+}
+
+.buttonbox1 {
+    margin-left: 35%;
+    padding: 15px 30px;
+    border: none;
+    background-color: #009688;
+    color: #000;
+    font-size: 16px;
+}
+
+.buttonbox1:hover {
+    background-color: black;
+    color: white;
+}
+
+.COTACTME {
+    background-color: #9e9e9e;
+}
+
+.hcontact {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+.input-1 {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.button-input {
+    color: #fff;
+    background-color: #000;
+    padding: 15px 20px;
+    margin: 16px 0;
+}
+
+.content-footer {
+    width: 100%;
+}
+
+.contant-1 {
+    width: 33.3333%;
+    float: left;
+}
+
+.h-contant {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 30px 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.paragraph-content-1 {
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    margin: 60px 0;
+    line-height: 1.5;
+}
+
+.paragraph-content-2,
+.paragraph-content-3 {
+    color: white;
+}
+
+.img-contant {
+    width: 45px;
+}
+
+.hr-contant {
+    height: 2px;
+}
+
+.div-1 {
+    padding: 5px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.div-1:hover {
+    background-color: #ccc;
+}
+
+.div-2 {
+    padding: 5px 15px;
+}
+
+.div-2:hover {
+    background-color: #ccc;
+}
+
+.span-contant {
+    margin: 60px 0;
+}
+
+.span-1-contant {
+    color: #fff;
+    background-color: #000;
+    margin: 3px;
+    line-height: 1.5;
+}
+
+.span-2-contant {
+    color: #000;
+    background-color: #9e9e9e;
+    margin: 3px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.paragraph-footer {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+.a-footer {
+    color: white;
+}
+
+.a-footer:hover {
+    color: #616161;
+}
